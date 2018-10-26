@@ -5,3 +5,4 @@ info:
 logging:
  level:
    org.springframework.boot: debug
+   org.springframework.cloud: debug
