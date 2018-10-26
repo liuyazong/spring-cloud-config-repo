@@ -2,6 +2,7 @@ info:
   name: user-app
   version: 1.0.0
 
-loging:
-  level:
-    org.springframework
+logging:
+ level:
+   org.springframework.boot: debug
+   org.springframework.cloud: debug
