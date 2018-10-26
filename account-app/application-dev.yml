@@ -1,3 +1,7 @@
 info:
   name: acc-app
   version: 1.0.0
+  
+ logging:
+  level:
+    org.springframework.boot: debug
