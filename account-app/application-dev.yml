@@ -6,3 +6,4 @@ logging:
  level:
    org.springframework.boot: debug
    org.springframework.cloud: debug
+   l.y.z: debug
