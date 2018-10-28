@@ -6,7 +6,7 @@ logging:
  level:
    org.springframework.boot: debug
    org.springframework.cloud: debug
-   l.y.z: debut
+   l.y.z: debug
 
 spring:
   datasource:
