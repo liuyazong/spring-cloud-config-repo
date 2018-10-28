@@ -7,25 +7,3 @@ logging:
    org.springframework.boot: debug
    org.springframework.cloud: debug
    l.y.z: debug
-
-spring:
-  datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/dev?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true
-    username: root
-    password: mysql
-    hikari:
-      minimum-idle: 15
-      maximum-pool-size: 200
-
-
-mybatis:
-  configuration:
-    map-underscore-to-camel-case: true
-    use-generated-keys: true
-    default-executor-type: reuse
-    lazy-loading-enabled: true
-    cache-enabled: true
-  mapper-locations:
-    - classpath*:mapper
